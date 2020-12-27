@@ -1,3 +1,5 @@
+This project is to create Private Cloud IaaS: Three Tier web application (HA Proxy/load balancer, WebServer and Database)
+
 We would like to see a 3-tier application stack with a database server VM, application server VM and web server VM. Identified requirements are to have separate production and development environments. The production environment requires built-in data protection using backup/restore with snapshots and no more than 1 hour of data loss after a failure. Additional tests for VM workload expansion (cloning), the ability to dynamically add CPU/Memory resources to online virtual machines (add 1 vCPU and 2GB memory to the database server) is required. Final verification is the removal of a key VM and performing a full restoration.
 
 The systems administration group has provisioned the test environment HCI cluster. You will be responsible for the basic infrastructure configurations and virtual machine buildout and testing. The applications team will perform the database and application installations. Our CEO would like to see a demo tomorrow - you have 8 hours to prepare the environment. I'm sure you're up to the task!
